@@ -1,0 +1,29 @@
+﻿Build started 05-08-2015 16:00:44.
+     1>Project "C:\Users\TETCOS\Desktop\IDS\Simulation 8.3.10 IDS\WLAN\WLAN.vcxproj" on node 2 (rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         Creating "Release\WLAN.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D WLAN_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt 802_11ac.c 802_11ag.c 802_11b.c 802_11e.c 802_11n.c 802_11n_acAggregation.c 802_11_MAC.c 802_11_PHY.c PMD_RX_Specification_802_11abgnac.c PowerModel.c Watchdog.c WLan.c
+         802_11ac.c
+         802_11ag.c
+         802_11b.c
+         802_11e.c
+         802_11n.c
+         802_11n_acAggregation.c
+         802_11_MAC.c
+         802_11_PHY.c
+         PMD_RX_Specification_802_11abgnac.c
+         PowerModel.c
+         Watchdog.c
+     1>Watchdog.c(85): error C2065: 'WATCHDOG_TIMER' : undeclared identifier
+         WLan.c
+     1>WLan.c(140): error C2065: 'WATCHDOG_TIMER' : undeclared identifier
+     1>WLan.c(140): error C2051: case expression not constant
+     1>WLan.c(177): error C2065: 'WATCHDOG_TIMER' : undeclared identifier
+     1>WLan.c(177): error C2051: case expression not constant
+     1>Done Building Project "C:\Users\TETCOS\Desktop\IDS\Simulation 8.3.10 IDS\WLAN\WLAN.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.63
